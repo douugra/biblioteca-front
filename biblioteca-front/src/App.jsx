@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 
 export default function App() {
-  const API_URL = 'https://biblioteta-api.vercel.app/api/livros';
+  const API_URL = 'https://biblioteta-api-jar7.vercel.app/';
   const [livros, setLivros] = useState([]);
   const [titulo, setTitulo] = useState('');
   const [autor, setAutor] = useState('');
